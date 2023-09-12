@@ -1,0 +1,104 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+.colourfulText{
+    color: rgb(221, 97, 9);
+}
+
+.Button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    background-image:linear-gradient(rgb(202, 109, 99),rgb(240, 42, 7));
+}
+
+.Button:hover{
+    color:yellow;
+}
+
+.flexileContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halfwidth{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.halfwidth img{
+    position:100%;
+}
+
+.flexileContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+}
+
+#recepiesItem{
+    text-align: center;
+}
+.recipiesdescription{
+    text-align: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.foodItem{
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.foodItem img{
+    width: 100%;
+}
+.flexileContainer3{
+    display:flex;
+    margin-left: 12%;
+    margin-right: 10%;
+
+    
+}
+
+.socialmedia{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: gainsboro;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
